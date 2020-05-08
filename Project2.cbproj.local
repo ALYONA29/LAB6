@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.282,F:\Labs(OAiP)\LAB6\Unit2.cpp=F:\ОАиП\Новая папка\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.677,=F:\ОАиП\Новая папка\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.649,=F:\ОАиП\Новая папка\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.446,=F:\ОАиП\Новая папка\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.020,=F:\ОАиП\Новая папка\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.915,=F:\ОАиП\Новая папка\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.946,=F:\ОАиП\Новая папка\Unit2.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.891,F:\Labs(OAiP)\LAB6\Project2.cbproj=F:\ОАиП\Новая папка\Project2.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.282,F:\Labs(OAiP)\LAB6\Unit2.h=F:\ОАиП\Новая папка\Unit2.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.828,=E:\Labs(OAiP)\LAB6\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.048,F:\Labs(OAiP)\LAB6\Project2PCH1.h=F:\ОАиП\Новая папка\Project2PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.298,=E:\Labs(OAiP)\LAB6\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.283,F:\Labs(OAiP)\LAB6\Unit2.dfm=F:\ОАиП\Новая папка\Unit2.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.488,=E:\Labs(OAiP)\LAB6\Unit1.cpp</Transaction>
+    <Transaction>2020.05.08 22:44:07.511,C:\Users\ALYONA\Desktop\LAB6\main.cpp=C:\Users\ALYONA\Desktop\LAB6\Unit2.cpp</Transaction>
+    <Transaction>2020.05.08 22:44:07.511,C:\Users\ALYONA\Desktop\LAB6\main.h=C:\Users\ALYONA\Desktop\LAB6\Unit2.h</Transaction>
+    <Transaction>2020.05.08 22:44:07.511,C:\Users\ALYONA\Desktop\LAB6\main.dfm=C:\Users\ALYONA\Desktop\LAB6\Unit2.dfm</Transaction>
+    <Transaction>2020.05.08 22:44:25.141,C:\Users\ALYONA\Desktop\LAB6\Info.h=C:\Users\ALYONA\Desktop\LAB6\Unit1.h</Transaction>
+    <Transaction>2020.05.08 22:44:25.141,C:\Users\ALYONA\Desktop\LAB6\Info.cpp=C:\Users\ALYONA\Desktop\LAB6\Unit1.cpp</Transaction>
+    <Transaction>2020.05.08 22:44:53.031,C:\Users\ALYONA\Desktop\LAB6\Tree.h=C:\Users\ALYONA\Desktop\LAB6\Unit3.h</Transaction>
+    <Transaction>2020.05.08 22:44:53.031,C:\Users\ALYONA\Desktop\LAB6\Tree.cpp=C:\Users\ALYONA\Desktop\LAB6\Unit3.cpp</Transaction>
+    <Transaction>2020.05.08 22:45:13.247,C:\Users\ALYONA\Desktop\LAB6\MyTree.cpp=C:\Users\ALYONA\Desktop\LAB6\Unit4.cpp</Transaction>
+    <Transaction>2020.05.08 22:45:13.247,C:\Users\ALYONA\Desktop\LAB6\MyTree.h=C:\Users\ALYONA\Desktop\LAB6\Unit4.h</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project2.cpp"/>
+    <File Path="Project2PCH1.h"/>
+    <File Path="Info.cpp"/>
+    <File Path="Info.cpp"/>
+    <File Path="Info.h"/>
+    <File Path="main.cpp"/>
+    <File Path="main.cpp"/>
+    <File Path="main.dfm"/>
+    <File Path="main.h"/>
+    <File Path="Tree.cpp"/>
+    <File Path="Tree.cpp"/>
+    <File Path="Tree.h"/>
+    <File Path="MyTree.cpp"/>
+    <File Path="MyTree.cpp"/>
+    <File Path="MyTree.h"/>
+  </ProjectSortOrder>
+</BorlandProject>

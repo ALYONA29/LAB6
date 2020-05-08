@@ -1,0 +1,16 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit4H
+#define Unit4H
+//---------------------------------------------------------------------------
+#endif
+
+//#include "Unit3.h"
+
+class MyTree : public class TTree
+{
+	public:
+	TTree Tr;
+	MyTree *Left;
+	MyTree *Right;
+};

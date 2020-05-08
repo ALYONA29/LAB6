@@ -1,0 +1,104 @@
+//---------------------------------------------------------------------------
+
+#pragma hdrstop
+
+#include "Unit3.h"
+//#include <vcl.h>
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+
+void TTree::MakeList(TTree **p, TInf Inf)
+{
+	*p = new TTree;
+	(*p)->Inf = Inf;
+	(*p)->A1 = NULL;
+	(*p)->A2 = NULL;
+}
+
+void TTree::DeleteTree(TTree **p)
+{
+	if (*p == NULL)
+	{
+		return;
+	}
+	DeleteTree(&(*p)->A1);
+	DeleteTree(&(*p)->A2);
+	delete(*p);
+	*p = NULL;
+}
+
+bool TTree::DobTree(TTree *proot, TInf Inf)
+{
+	TTree *p = proot, *q;
+	bool bl, check = true;
+	while (p != NULL)
+	{
+		q = p;
+		if(Inf.key == p->Inf.key)
+		{
+			continue;
+			check = false;
+        }
+		bl = (Inf.key < p->Inf.key);
+		if (bl)
+		{
+			p = p->A1;
+		}
+		else
+		{
+			p = p->A2;
+		}
+	}
+	MakeList(&proot, Inf);
+	if (bl)
+	{
+		q->A1=proot;
+	}
+	else
+	{
+		q->A2=proot;
+	}
+    return check;
+}
+
+int TTree::Size_Tree(TTree *p)
+{
+	return p? 1 + Size_Tree(p->A1) + Size_Tree(p->A2) : 0;
+}
+
+int TTree::Store_Tree(TTree *p, int pos, int *a, String *b)
+{
+	if (p)
+	{
+		if(p->A1 != NULL)
+		{
+			pos =Store_Tree(p->A1, pos, a, b);
+		}
+		a[pos] = p->Inf.key;
+		b[pos] = p->Inf.fio;
+		pos++;
+		if(p->A2 != NULL)
+		{
+			pos =Store_Tree(p->A2, pos, a, b);
+		}
+	}
+	return pos;
+}
+
+void TTree::Make_Blns(TTree **p, int L, int R, int *a, String *b)
+{
+	if (L == R)
+	{
+		*p = NULL;
+		return;
+	}
+	else
+	{
+		int m = (L + R) / 2;
+		*p = new TTree;
+		(*p)->Inf.key = a[m];
+		(*p)->Inf.fio = b[m];
+		Make_Blns( &(*p)->A1, L, m, a, b);
+		Make_Blns( &(*p)->A2, m+1, R, a, b);
+	}
+}

@@ -1,0 +1,22 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit3H
+#define Unit3H
+//---------------------------------------------------------------------------
+#endif
+
+#include "Unit1.h"
+
+class TTree
+{
+	public:
+	TInf Inf;
+	TTree *A1;
+	TTree *A2;
+    void MakeList(TTree**, TInf);
+	bool DobTree(TTree*, TInf);
+	void DeleteTree(TTree**);
+	int Size_Tree(TTree *p);
+	int Store_Tree(TTree *p, int pos, int *a, String *b);
+    void Make_Blns(TTree **p, int L, int R, int *a, String *b);
+};
